@@ -67,7 +67,7 @@ public class UserController {
 
 		} else {
 			userService.userSave(user);
-			return "index";
+			return "userloginpage";
 		}
 	}
 

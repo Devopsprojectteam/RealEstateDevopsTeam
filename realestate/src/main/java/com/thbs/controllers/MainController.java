@@ -33,7 +33,7 @@ public class MainController {
 
 	@RequestMapping(value = Constants.LANDING_PAGE)
 	public String index() {
-		return "property-detail";
+		return "index";
 	}
 
 	@RequestMapping(value = Constants.CONTACT_PAGE)
@@ -43,7 +43,7 @@ public class MainController {
 
 	@RequestMapping(value = Constants.USERLOGIN_PAGE)
 	public String user() {
-		return "index";
+		return "userloginpage";
 	}
 
 	@RequestMapping(value = Constants.USERREGISTER_PAGE)
